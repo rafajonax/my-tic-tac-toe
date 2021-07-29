@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="player box-shadow">
+            <h2>Vez do jogador:</h2><div class="current-player"></div>
+        </div>
+    <main class="main-game box-shadow">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </main>
+    <div class="fade"></div>
+    <div class="menu box-shadow">
+            <h2>Jogo da Velha</h2> 
+            <div class="result">
+                <h3>Clique para Iniciar!</h3>
+        </div>
+            <button class="start box-shadow" role="button" type="button">Jogar</button>
+    </div>
+    <div class="score box-shadow">
+        <div class="x"></div>
+        <h3>Placar</h3>
+        <div class="o"></div>
+        <div data-x=""></div>
+        <h3></h3>
+        <div data-o=""></div>
+    </div>
+
+    <!-- script.js -->
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
