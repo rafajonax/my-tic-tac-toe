@@ -1,6 +1,6 @@
-import { GameUi } from "../utils/GameUi.js";
+import { Utils } from "../utils/Utils.js";
 
-export class MyTicTacToe extends GameUi {
+export class MyTicTacToe extends Utils {
 	constructor() {
 		super();
 		this.currentPlayer;

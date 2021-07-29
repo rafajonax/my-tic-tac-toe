@@ -1,4 +1,4 @@
-export class GameUi {
+export class Utils {
 	testCollision(el1 = {}, el2 = {}, direction) {
 		if (
 			!el1.element ||
